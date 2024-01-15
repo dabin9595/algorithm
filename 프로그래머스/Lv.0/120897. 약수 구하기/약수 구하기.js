@@ -1,0 +1,1 @@
+const solution = n => new Array(n).fill(0).map((a,i) => i+1).filter(a => n%a === 0)
